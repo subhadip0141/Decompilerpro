@@ -1,0 +1,51 @@
+DEMO APK INFORMATION
+====================
+
+This file demonstrates what the APK Decompiler Pro system would analyze
+when you upload a real APK file.
+
+File: demo_app.apk
+Size: 15.7 MB
+Package: com.example.futuristicapp
+Version: 2.1.0
+
+PERMISSIONS THAT WOULD BE DETECTED:
+====================================
+
+Normal Permissions:
+- android.permission.INTERNET (Internet access)
+- android.permission.ACCESS_NETWORK_STATE (Network state)
+- android.permission.READ_EXTERNAL_STORAGE (Read storage)
+- android.permission.WAKE_LOCK (Keep device awake)
+
+Dangerous Permissions:
+- android.permission.CAMERA (Camera access)
+- android.permission.RECORD_AUDIO (Audio recording)
+- android.permission.ACCESS_FINE_LOCATION (Precise location)
+- android.permission.READ_CONTACTS (Read contacts)
+- android.permission.WRITE_EXTERNAL_STORAGE (Write storage)
+- android.permission.SEND_SMS (Send SMS)
+
+SECURITY FEATURES:
+==================
+
+Positive:
+- Debug mode disabled
+- Network security configured
+- Root detection enabled
+
+Areas of Concern:
+- Code not obfuscated
+- SSL pinning not detected
+- Backup enabled
+
+SECURITY SCORE: 75/100 (Moderate Security)
+
+To test with a real APK:
+1. Download any APK file from the internet
+2. Drag and drop it onto the website
+3. Watch the real-time analysis
+4. View detailed results and download report
+
+Note: The system works with any valid APK file and will extract
+real permissions and information from the actual application.
